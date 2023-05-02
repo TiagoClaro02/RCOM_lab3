@@ -50,7 +50,7 @@ void printReceiver();
 int getState(int currentState, unsigned char str, message msg);
 
 unsigned char set[5] = {0x5C, 0x01, 0x03, 0x02, 0x5C};
-unsigned char ua[5] = {0x5C, 0x01, 0x05, 0x02, 0x5C};
+unsigned char ua[5] = {0x5C, 0x01, 0x07, 0x02, 0x5C};
 unsigned char a;
 
 int main(int argc, char** argv)
