@@ -318,6 +318,5 @@ int getState(int currentState, unsigned char str, message msg){
 
         break;
     }
-
     return currentState;
 }
